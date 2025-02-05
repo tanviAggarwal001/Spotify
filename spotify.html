@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="spotify.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="left">
+            <div class="upper">
+                <div class="home">
+                    <img class="invert" width="110" src="logo.svg" alt="">
+                    <img class="invert" src="cross.svg" alt="" id="cross">
+                </div>
+                <div class="homesearch">
+                    <ul>
+                        <li>
+                            <img class="invert" width="30" src="home.svg" alt="home">
+                            Home
+                        </li>
+                        <li>
+                            <img class="invert" width="30" src="search.svg" alt="search">
+                            Search
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="lower">
+                <div class="ulib">
+                    <div class="row1">
+                        <div class="left1">
+                            <img class="invert" width="20" src="library.svg" alt="library">
+                            <div>
+                                Your Library
+                            </div>
+                        </div>
+                        <div class="right1">
+                            +
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="card">
+                            <div class="h2">
+                                Create your first playlist
+                            </div>
+                            <div class="h3">
+                                it's easy , we'll help you
+                            </div>
+                            <button class="button">
+                                Create playlist
+                            </button>
+                        </div>
+                        <div class="card">
+                            <div class="h2">
+                                Let's find some podcasts to follow
+                            </div>
+                            <div class="h3">
+                                we'll keep you updated on new episodes
+                            </div>
+                            <button class="button">
+                                Browse podcasts
+                            </button>
+                        </div>
+                    </div>
+                    <div class="songslist">
+                        <ul>
+                        </ul>
+                    </div>
+                    <div class="footer">
+                        <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                        <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+                        <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                        </div>
+                        <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                        <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a>
+                        </div>
+                        <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <nav>
+                <img class="invert" id="ham" src="hamburgre.svg" alt="">
+                <div class="arrows">
+                    <span>
+                        < </span>
+                            <span>
+                                >
+                            </span>
+                </div>
+                <div class="buttons">
+                    <button>Sign up</button>
+                    <button>Login</button>
+                </div>
+            </nav>
+            <div class="cardheading">
+                Spotify Playlists
+            </div>
+            <div class="spotifyplaylists">
+                <div class="box1">
+                    <div class="images">
+                        <img src="playlist1image.jpeg" alt="">
+                        <img src="play.png" alt="play" class="play">
+                    </div>
+                    <h4>
+                        New Music friday
+                    </h4>
+                    <p>
+                        The very best in new music from around the world. Cover: Don Toliver
+                    </p>
+                </div>
+                <div class="box1">
+                    <div class="images">
+                        <img src="playlist2image.jpeg" alt="">
+
+                        <img src="play.png" alt="play" class="play">
+                    </div>
+                    <h4>
+                        New Music friday
+                    </h4>
+                    <p>
+                        The very best in new music from around the world. Cover: Don Toliver
+                    </p>
+                </div>
+                <div class="box1">
+                    <div class="images">
+                        <img src="playlist3image.jpeg" alt="">
+
+                        <img src="play.png" alt="play" class="play">
+                    </div>
+                    <h4>
+                        New Music friday
+                    </h4>
+                    <p>
+                        The very best in new music from around the world. Cover: Don Toliver
+                    </p>
+                </div>
+            </div>
+            <div class="playbar invert">
+                <div class="seekbar">
+                    <div class="circle">
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="songinfo">
+                    </div>
+                    <div class="songbuttons">
+                        <img id="prev" src="previousbutton.svg" alt="previousbutton">
+                        <img id="pause" src="play.svg" alt="">
+                        <img id="next" src="nextbutton.svg" alt="nextbutton">
+                    </div>
+                    <div class="rightinfo">
+                        
+                        <div class="songtime">
+                        </div>
+
+                        <div class="vol">
+                            <img src="volume.svg" alt="" id="volume">
+                            <span>
+                                <input type="range" name="volume" id="range">
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="potify.js"></script>
+</body>
+
+</html>
